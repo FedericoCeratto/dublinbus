@@ -4,7 +4,7 @@ python:
 # command to run tests
 script:
   - python setup.py  nosetests --with-coverage --cover-package pypiview
-after_sucess:
+after_success:
   - coveralls
 
 
