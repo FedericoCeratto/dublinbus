@@ -6,8 +6,8 @@ DublinBus
 .. image:: https://badge.fury.io/py/dublinbus.svg
    :target: http://badge.fury.io/py/dublinbus
    :alt: PyPI version
-.. image:: https://coveralls.io/repos/vasyl-purchel/dublinbus/badge.svg
-   :target: https://coveralls.io/r/vasyl-purchel/dublinbus
+.. image:: https://coveralls.io/repos/vasyl-purchel/dublinbus/badge.svg?branch=master
+   :target: https://coveralls.io/r/vasyl-purchel/dublinbus?branch=master
    :alt: Coverage Status
 .. image:: https://landscape.io/github/vasyl-purchel/dublinbus/master/landscape.svg?style=flat
    :target: https://landscape.io/github/vasyl-purchel/dublinbus/master
