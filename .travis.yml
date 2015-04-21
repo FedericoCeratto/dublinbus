@@ -2,5 +2,9 @@ language: python
 python:
   - "3.4"
 # command to run tests
-script: python setup.py test
+script:
+  - python setup.py  nosetests --with-coverage --cover-package pypiview
+after_sucess:
+  - coveralls
+
 
