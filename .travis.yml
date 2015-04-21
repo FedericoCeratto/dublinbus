@@ -3,7 +3,7 @@ python:
   - "3.4"
 # command to run tests
 script:
-  - python setup.py  nosetests --with-coverage --cover-package pypiview
+  - python setup.py  nosetests --with-coverage --cover-package dublinbus
 after_success:
   - coveralls
 
