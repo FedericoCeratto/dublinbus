@@ -19,6 +19,7 @@ def print_stop(stop_number):
     for row in soup.find('table').findAll('tr'):
         entries = row.findAll('td')
         if entries:
-            buses.append(list(map((lambda x: x.contents[0]), entries)))
+            buses.append([e.contents[0] for e in entries])
+
     return(tabulate(buses,
                     headers=['service', 'direction', 'time', 'low floor']))
