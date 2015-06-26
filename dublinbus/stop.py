@@ -2,7 +2,6 @@
 import urllib.request
 import urllib.parse
 from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 BASEURL = 'http://rtpi.ie/Text/WebDisplay.aspx?stopRef='
 
@@ -25,5 +24,4 @@ def print_stop(stop_number, bus_numbers=None):
         if bus_numbers is None or bn in bus_numbers:
             buses.append([e.contents[0] for e in entries])
 
-    return(tabulate(buses,
-                    headers=['service', 'direction', 'time', 'low floor']))
+    return buses
