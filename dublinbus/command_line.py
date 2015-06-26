@@ -45,7 +45,6 @@ def main():
         print_tabulate(buses)
         return
 
-    min_time, max_time = args.notify
     while True:
         buses = dublinbus.print_stop(
             args.stop_number,
